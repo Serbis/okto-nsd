@@ -1,0 +1,17 @@
+[1540216489][INFO][DaemonRunner/start] -> Daemon has been successfully started with pid '21354'
+[1540216489][INFO][Server] -> Server listen '/tmp/socket'
+[1540216502][INFO][SignalHandler] -> STOOOOOOP
+ with pid '21354' has been successfully stopped
+[1540216780][INFO][DaemonRunner/start] -> Daemon has been successfully started with pid '21604'
+[1540216780][INFO][Server] -> Server listen '/tmp/socket'
+[1540216858][INFO][DaemonRunner/start] -> Daemon has been successfully started with pid '21647'
+[1540216858][INFO][Server] -> Server listen '/tmp/socket'
+[1540216918][INFO][DaemonRunner/stop] -> Daemon with pid '21647' has been requested to stopped
+[1540217287][FATAL][DaemonRunner/stop] -> Daemon does not started
+[1540217287][INFO][DaemonRunner/start] -> Daemon has been successfully started with pid '21818'
+[1540217287][FATAL][DaemonRunner/restart] -> Unable to restart daemon
+[1540217287][INFO][Server] -> Server listen '/tmp/socket'
+[1540217299][INFO][DaemonRunner/stop] -> Daemon with pid '21818' has been requested to stopped
+[1540217299][INFO][DaemonRunner/start] -> Daemon has been successfully started with pid '21839'
+[1540217299][INFO][Server] -> Server listen '/tmp/socket'
+[1540217335][INFO][DaemonRunner/status] -> Daemon run with pid '21839'

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nsd"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/serbis/code/main/MRCS/nsd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/serbis/code/main/MRCS/nsd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nsd">
+				<Option output="/home/serbis/code/main/MRCS/nsd/cmake-build-debug/nsd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/serbis/code/main/MRCS/nsd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 nsd"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nsd/fast">
+				<Option output="/home/serbis/code/main/MRCS/nsd/cmake-build-debug/nsd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/serbis/code/main/MRCS/nsd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 nsd/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/serbis/code/main/MRCS/nsd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/serbis/code/main/MRCS/nsd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/inc/client_thread.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/inc/cmd_processor.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/inc/logger.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/collections/src/lbq.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/collections/src/list.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/collections/src/map.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/collections/src/map2.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/collections/src/rings.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/include/data.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/include/malloc.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/include/threads.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/include/time.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/include/utils.h">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/src/data.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/src/malloc.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/src/threads.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/src/time.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/libs/oscl/src/utils.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/main.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/src/client_thread.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/src/cmd_processor.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/src/logger.c">
+			<Option target="nsd"/>
+		</Unit>
+		<Unit filename="/home/serbis/code/main/MRCS/nsd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
